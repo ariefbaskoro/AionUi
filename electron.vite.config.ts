@@ -174,6 +174,9 @@ export default defineConfig(({ mode }) => {
           host: 'localhost',
         },
       },
+      preview: {
+      allowedHosts: true
+    },
       resolve: {
         alias: {
           '@': resolve('src'),
